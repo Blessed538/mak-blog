@@ -1,0 +1,16 @@
+.home-container {
+    width: 100%;
+    max-width: 100%;
+    .home {
+        height: 800px;
+        width: 100%;
+        background-image: url('../../images/blog.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        max-width: 100%;
+        // height: auto;
+        object-fit: cover;
+        background-size: cover;
+    }
+}
+

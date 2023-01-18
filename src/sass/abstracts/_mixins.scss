@@ -1,0 +1,26 @@
+@mixin box-shadow($x-axis: 0, $y-axis: 1px, $blur: 2px,) {
+    box-shadow: $x-axis $y-axis $blur ;
+  }
+
+
+  @mixin media-sm {
+    @media screen and (min-width: 40em) {
+      @content;
+    }
+  }
+
+  @mixin media-md {
+    @media screen and (min-width: 768px) {
+      @content;
+    }
+  }
+  @mixin media-lg {
+    @media screen and (min-width: 1024px) {
+      @content;
+    }
+  }
+  @mixin media-xl {
+    @media screen and (min-width: 1600px) {
+      @content;
+    }
+  }
