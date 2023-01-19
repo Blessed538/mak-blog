@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 const Header = () => {
   return (
     <header>
       <div className="container">
-        <a>
+        <Link to='/'>
           <svg
             role="img"
             width="21"
@@ -21,8 +23,8 @@ const Header = () => {
               <path d="M20.9991 0H0V2.83603H20.9991V0Z"></path>
             </g>
           </svg>
-        </a>
-        <div className="container-main-menu">
+        </Link>
+        {/* <div className="container-main-menu">
           <ul className="main-menu-link" id="main-menu">
             <li>
               <a href="#">Home</a>
@@ -34,7 +36,7 @@ const Header = () => {
               <a href="#">Features</a>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </header>
   );

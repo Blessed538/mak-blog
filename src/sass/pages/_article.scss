@@ -1,0 +1,21 @@
+.article {
+    text-align: center;
+    background: #EDF3F3;
+    padding: 70px 0 40px;
+    .article-container {
+        padding-right: 15px;
+        padding-left: 15px;
+        max-width: 1140px;
+        margin: 0 auto;
+        width: 100%;
+        h2 {
+            margin: 2rem 0px;
+        }
+        p {
+            line-height: 1.625;
+            margin-top: 2rem;
+            font-size: 2rem
+
+        }
+    }
+}
